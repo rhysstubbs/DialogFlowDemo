@@ -61,7 +61,7 @@ class APIController extends Controller
                 'speech' => $jobCount." ".'jobs found',
                 'displayText' => $jobCount." ".$job_type." ". "job in". " ". $location,
                 'data' => '',
-                'contextOut' => '',
+                'contextOut' => [],
                 'source' => 'Demo'
             )
         );
